@@ -11,18 +11,18 @@ int multi(int a,int b)
 	int r = a * b;
 
 	
-	return r;
+	return r; // t.e.chto poluchilos is formuli teper eto r. 
 }
 
-float Amper(int w,int u) 
+float Amper(int w,int u) //imya funkcii, tip peremennih, eto novoe telo.
 { 
     if(u <= 0)
 	{
 		//u=1;
 
-		return -1;
+		return -1;// esli u menshe nulya vozvrashaem -1 etomu u.
 	}
-  float A = (float)w / (float)u;
+  float A = (float)w / (float)u;//mojno v odnom meste ukazat tip i nevozvrashatsa bolee..?
 
   return A; 
 }
