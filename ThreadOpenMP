@@ -1,0 +1,14 @@
+int calculation (int *a, int sz)
+{
+  int max=a[0];
+  #pragma omp parallel shared(a) num_threads(4)
+  {
+    # pragma omp for
+    for (i=1;i<sz;i++)
+    {
+      if (a[i] > max)
+        max = a [i];
+    }
+  }
+  return max;
+}
