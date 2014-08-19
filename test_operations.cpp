@@ -7,7 +7,7 @@
 
 int main()
 {	
-	printf("i++ or ++i:\r\n");
+	printf("i++ or ++i:\r\n");// snachalo k 5+1, a zatem k 1+ uje(5+1)
 	int i = 5;
 
 	printf("%i\r\n",++i); // = 13
@@ -32,7 +32,7 @@ int main()
 	printf("--------------------------------------------\r\n");
 	printf("for:\r\n");
 
-	for(int i = 0,i1 = 10; i < 10 && i1<20; i++,i1++)
+	for(int i = 0,i1 = 10; i < 10 && i1<20; i++,i1++)// tut conechno nemnojko ne ponyatno..
 	{
 		//printf("%i\r\n",i);
 
