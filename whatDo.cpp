@@ -6,9 +6,9 @@ int main()
     
     //вывод массива A 
     
-    for (i=0;i<n-1;i++)
+    for (i=0;i<n-1;i++)// eti momenti eshe slojnie.
     {
-        for (j=0;j<n-1-i;j++)
+        for (j=0;j<n-1-i;j++)// kak eti formuli rabotayut?
         {
             if (A[j]>A[j+1])
             {
