@@ -7,7 +7,7 @@
 
 int main()
 {
-	setlocale(LC_ALL,"Russian"); //метод для правки кодировки символов 1
+	setlocale(LC_ALL,"Russian"); //метод для правки кодировки символов
 
 	printf("привет");
 
